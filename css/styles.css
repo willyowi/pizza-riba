@@ -11,7 +11,19 @@ body{
   padding-top: 20px;
 }
 .jumbotron h1 {
-  padding-top: 150px;
-  padding-left: 400px;
+  padding-top: 50px;
+  padding-left: 250px;
+  color: white;
+  font-size: 60px;
+}
+.row1{
+  display: flex;
+}
+  .col-md-4{
+    flex-direction: column;
+  }
+h2{
+  text-align: center;
   color: white;
   font-size: 50px;
+}
