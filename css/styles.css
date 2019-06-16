@@ -1,6 +1,10 @@
 body{
   background-color:#ef3939;
 }
+#logo{
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 .jumbotron {
   margin-top: 50px;
   background-color: #ef3939;
