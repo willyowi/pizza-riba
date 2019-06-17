@@ -1,9 +1,9 @@
 # Delani Studio
-#### This is Delani studio project for WILSON OWINO ODUOR
+#### This is Pizza-Ribaa project by WILSON OWINO ODUOR
 #### By {WILSON OWINO ODUPOR}
 
 ## Description
-Delani studio is a website for a group of developers who use this platform to share their work and show the world what they can do.You will find a list of projects with thier descriptions.
+This is a program for the pizza hub named pizza riba.The program allows the user to select the pizza they want and allows them to get the prices they need.Then it gives the opportunity to come up with address they wish to be delivered to.
 ## Setup instructions
   * Click the fork button on the top right corner of the file.
   * Click the clone or download button to clone my work on personal PC
@@ -12,21 +12,24 @@ Delani studio is a website for a group of developers who use this platform to sh
 ## Behaviour Driven Development
   | interface    | Description |  |
   | --------- | ----------- | ------ |
-  | about us | tell the user about Delani studio | scroll down |
-  | services | tells the user of the project Delani has done | click on each icon to view more |
-  | portfolio | tells about different projects done | hover to see the names |
-  | contacts | allows user to send a message to Delani | an alert shows the message has been received |
+  | select size | here the user is allowed to select pizza sizes |
+  | add toppings | tells the user to click and choose toppings by checking the check boxes |  |
+  | order another | tells user to select another pizza to purchase | options for small medium large and extra large |
+  | address | allows user to give address for delivery options | the user is notified with details of the address on delivery |
 
 
 ## Technologies used
-HTML CSS  bootstrap jQuery
+####HTML
+####CSS  
+####bootstrap
+####jQuery
 ## Contact details.
 Kindly feel free to contact me on the contacts listed below in case you have questions about my code or if you simply feel I need to work on it.
 * Email Address: wilsonowino1@gmail.com
 ## License
 MIT License
 
-Copyright (c) [2019] [Delani studio]
+Copyright (c) [2019] [PIzza-riba]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
