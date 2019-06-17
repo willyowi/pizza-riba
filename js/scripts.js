@@ -25,7 +25,7 @@ Pizza.prototype.addTops = function(array) {
 Pizza.prototype.calcCost = function() {
   for(i=0;i<this.ingredients.length;i++) {
     if ((this.ingredients[i]>=1)&&(this.ingredients[i]<=6)) {
-      this.price +=20;
+      this.price +=50;
     } else if (this.ingredients[i]>=6 && this.ingredients[i]<=10){
       this.price +=50;
     }
