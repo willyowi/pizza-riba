@@ -19,10 +19,10 @@ This is a program for the pizza hub named pizza riba.The program allows the user
 
 
 ## Technologies used
-####HTML
-####CSS  
-####bootstrap
-####jQuery
+#### HTML
+#### CSS  
+#### bootstrap
+#### jQuery
 ## Contact details.
 Kindly feel free to contact me on the contacts listed below in case you have questions about my code or if you simply feel I need to work on it.
 * Email Address: wilsonowino1@gmail.com
