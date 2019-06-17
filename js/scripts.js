@@ -105,13 +105,11 @@ $(document).ready(function() {
     var orderStreet = $("input#street").val();
     var orderCity = $("input#city").val();
     var orderState = $("input#state").val();
-    var orderZip = $("input#zip").val();
-    var rushed = $("#rushOrder").val();
+
     $("#nameHere").text(orderName);
     $("#streetHere").text(orderStreet);
     $("#cityHere").text(orderCity);
-    $("#stateHere").text(orderState);
-    $("#zipHere").text(ordeZip);
+    $("#stateHere").text(orderState)
     $("#finalTotalHere").text(order.grandTotal);
   });
 });
