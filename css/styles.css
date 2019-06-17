@@ -56,7 +56,29 @@ body{
 .row2{
   display: flex;
   padding: 15px;
-  
+
+}
+.image {
+  box-sizing: content-box;
+  box-sizing: borderbox;
+  border: 5px solid black;
+  border-radius: 10%;
+}
+#one {
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 10%;
+
+}
+#two{
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 10%;
+}
+#three{
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-radius: 10%;
 }
 .framed {
   border: solid white 2px;
