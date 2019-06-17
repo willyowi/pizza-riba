@@ -85,12 +85,38 @@ body{
   border-radius: 6px;
   padding: 25px;
   color: white;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: black;
 }
- #two:hover{
+.select{
+  font-size: 50px;
+  font-style: oblique;
+  color: white;
+}
+.text{
+  color: red;
+  font-size: 50px;
+}
+.texts {
+  color: black;
+  position: absolute;
+  box-sizing: border-box;
+  border: 5px solid black;
+  top: 50px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+  display:none;
+  width: 92%;
+  height: 70%;
+}
+.image:hover .texts {
+  opacity: 0.8;
+  display: inline;
   background-color: white;
-
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px
 }
 .addressText h4 {
   padding-left: 150px;
