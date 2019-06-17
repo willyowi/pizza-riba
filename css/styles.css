@@ -7,9 +7,10 @@ body{
   text-align: center;
 
 }
-#pizza1{
-  justify-content: center;
+.form-group{
+  left: 200px;
 }
+
 
 #logo{
   box-sizing: border-box;
@@ -29,10 +30,7 @@ body{
   font-family: fantasy;
   font-style: italic;
 }
-.emphasis {
-  font-style: italic;
-  text-decoration: underline;
-}
+
 .btn {
   background-color: black;
 }
