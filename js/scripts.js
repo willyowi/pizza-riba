@@ -11,7 +11,11 @@ var nameGen = function(size) {
 }
 var counter = 0
 
-
+function Pizza(size, name) {
+  this.ingredients = [];
+  this.size = size;
+  this.price = 1000;
+  this.name = name;
 }
 Pizza.prototype.addTops = function(array) {
   for(i=0;i<array.length;i++) {
