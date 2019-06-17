@@ -53,10 +53,10 @@ body{
 #pizza1{
   left: 150px;
 }
-.rowone{
+.row2{
   display: flex;
   padding: 15px;
-  right:300px;
+  
 }
 .framed {
   border: solid white 2px;
