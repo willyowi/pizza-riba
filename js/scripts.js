@@ -1,53 +1,3 @@
-//Back-End
-//Variable Declarations
-var counter = 0
-//Objects
-function Pizza(size, name) {
-  this.ingredients = [];
-  this.size = size;
-  this.price = 8;
-  this.name = name;
-}
-//Pizza Object Methods
-Pizza.prototype.addTops = function(array) {
-  for(i=0;i<array.length;i++) {
-    this.ingredients.push(parseInt(array[i]));
-  }
-  // array.forEach(function(topping) {
-  //   this.ingredients.push(topping);
-  // });
-  // QUESTION: Why didn't this forEach loop work?
-}
-Pizza.prototype.calcCost = function() {
-  for(i=0;i<this.ingredients.length;i++) {
-    if ((this.ingredients[i]>=1)&&(this.ingredients[i]<=6)) {
-      this.price += 2;
-    } else if (this.ingredients[i]>=7 && this.ingredients[i]<=12){
-      this.price +=1;
-    }
-  }
-  if (this.size==="1") {
-    this.price+=0
-  } else if (this.size==="2") {
-    this.price+=2
-  } else if (this.size==="3") {
-    this.price+=4
-  } else if (this.size==="4") {
-    this.price+=5
-  }
-  return this.price;
-}
-function Order() {
-  this.items = [];
-  this.rush = false;
-  this.grandTotal = 0;
-}
-var order = new Order;
-//Order Object Methods
-Order.prototype.calcGTotal = function(total) {
-  this.grandTotal += total;
-}
-//Functions
 var nameGen = function(size) {
   if (size==="1") {
     return "small"
@@ -59,8 +9,51 @@ var nameGen = function(size) {
     return "Extra-large"
   }
 }
+var counter = 0
 
-//Front-End
+function Pizza(size, name) {
+  this.ingredients = [];
+  this.size = size;
+  this.price = 1000;
+  this.name = name;
+}
+Pizza.prototype.addTops = function(array) {
+  for(i=0;i<array.length;i++) {
+    this.ingredients.push(parseInt(array[i]));
+  }
+}
+Pizza.prototype.calcCost = function() {
+  for(i=0;i<this.ingredients.length;i++) {
+    if ((this.ingredients[i]>=1)&&(this.ingredients[i]<=6)) {
+      this.price += 2;
+    } else if (this.ingredients[i]>=6 && this.ingredients[i]<=10){
+      this.price +=1;
+    }
+  }
+  if (this.size==="1") {
+    this.price+=0
+  } else if (this.size==="2") {
+    this.price+=200
+  } else if (this.size==="3") {
+    this.price+=400
+  } else if (this.size==="4") {
+    this.price+=450
+  }
+  return this.price;
+}
+function Order() {
+  this.items = [];
+  this.rush = false;
+  this.grandTotal = 0;
+}
+var order = new Order;
+
+Order.prototype.calcGTotal = function(total) {
+  this.grandTotal += total;
+}
+
+
+
 $(document).ready(function() {
   $("form#pizza1").submit(function(event) {
     event.preventDefault();

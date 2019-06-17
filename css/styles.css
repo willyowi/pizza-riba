@@ -28,10 +28,11 @@ body{
 }
 .stagedReveal {
   display: none;
+  left: 200px;
 }
 .heading {
   color: white;
-  text-decoration: underline;
+  font-size:50px;
 }
 .framed {
   border: solid white 2px;
