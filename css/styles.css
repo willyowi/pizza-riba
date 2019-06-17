@@ -1,6 +1,16 @@
 body{
   background-color:#ef3939;
 }
+#para{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
+#pizza1{
+  justify-content: center;
+}
+
 #logo{
   box-sizing: border-box;
   border-radius: 10px;

@@ -25,9 +25,9 @@ Pizza.prototype.addTops = function(array) {
 Pizza.prototype.calcCost = function() {
   for(i=0;i<this.ingredients.length;i++) {
     if ((this.ingredients[i]>=1)&&(this.ingredients[i]<=6)) {
-      this.price += 2;
+      this.price +=20;
     } else if (this.ingredients[i]>=6 && this.ingredients[i]<=10){
-      this.price +=1;
+      this.price +=50;
     }
   }
   if (this.size==="1") {
@@ -43,7 +43,6 @@ Pizza.prototype.calcCost = function() {
 }
 function Order() {
   this.items = [];
-  this.rush = false;
   this.grandTotal = 0;
 }
 var order = new Order;
@@ -112,7 +111,7 @@ $(document).ready(function() {
     $("#streetHere").text(orderStreet);
     $("#cityHere").text(orderCity);
     $("#stateHere").text(orderState);
-    $("#zipHere").text(orderZip);
+    $("#zipHere").text(ordeZip);
     $("#finalTotalHere").text(order.grandTotal);
   });
 });
